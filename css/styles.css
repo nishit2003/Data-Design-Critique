@@ -3,6 +3,7 @@ body {
    margin: 0;
    padding: 0;
    background-color: #f2f2f2;
+   background-image: url(../images/viruses-bacteria-fungi.jpg);
 }
 .container {
    max-width: 800px;
@@ -12,18 +13,23 @@ body {
    border-radius: 8px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-h1, h2, p {
-   margin-bottom: 20px;
+
+h1{
+   text-align: center;
 }
+
 a {
    color: #007bff;
-   text-decoration: none;
+   text-decoration: underline;
 }
-.visualization-link {
-   display: block;
-   margin-bottom: 30px;
-}
-.visualization-screenshot {
+
+img{
    width: 100%;
+   height: 377.5px;
+}
+
+li{
+   font-style: bold;
    margin-bottom: 20px;
 }
+
